@@ -1,0 +1,17 @@
+<form [name]="meuForm" (ngSubmit)="onSubmit($event)" class="conteiner">
+    <label class="label" for="idUnicoParaExemplo">idUnicoParaExemplo</label>
+    <input type="text" name="idUnicoParaExemplo" formControlName="idUnicoParaExemplo" (blur)="onChangeButton($event)" />
+    <input type="text" formControlName="documento" (blur)="onChangeButton($event)" />
+    <input type="text" formControlName="clienteNome" (blur)="onChangeButton($event)" />
+    <input type="text" formControlName="dataNascimento" (blur)="onChangeButton($event)" />
+    <input type="text" formControlName="contatoEmail" (blur)="onChangeButton($event)" />
+    <input type="text" formControlName="contatoTelefone" (blur)="onChangeButton($event)" />
+    <input type="text" formControlName="razaoSocial" (blur)="onChangeButton($event)" />
+    <input type="text" formControlName="endereco" (blur)="onChangeButton($event)" />
+    <input type="text" formControlName="cep" (blur)="onChangeButton($event)" />
+    <input type="text" formControlName="bairro" (blur)="onChangeButton($event)" />
+    <input type="text" formControlName="cidade" (blur)="onChangeButton($event)" />
+    <input type="text" formControlName="estado" (blur)="onChangeButton($event)" />
+    <input type="text" formControlName="inscricaoEstadual" (blur)="onChangeButton($event)" />
+    <button type="submit">Submit</button>
+</form>

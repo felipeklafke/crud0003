@@ -1,0 +1,22 @@
+* {
+    border: 1px solid red;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    flex: content;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.conteiner .label {
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-items: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}

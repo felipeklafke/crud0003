@@ -1,0 +1,5 @@
+**/bin
+**/.vscode
+**/[Pp]roperties
+**/obj
+**/node_modules
